@@ -1,0 +1,552 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+
+nav{
+    background-color: rgb(41, 39, 39);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulos{
+    display: flex;
+}
+
+.diseño{
+    margin: 18px;
+    color: white;
+}
+
+.multimedia{
+    color: rgb(21, 155, 233);
+    margin: 18px;
+    
+}
+
+.opcionesnav{
+    display: flex;
+}
+
+.opcionesnav li{
+    list-style: none;
+}
+
+.opcionesnav a{
+    padding: 18px;
+    text-decoration: none;
+}
+
+.inicio{
+    color: rgb(21, 155, 233);
+}
+
+.nosotros{
+    color: white;
+}
+
+.servicios{
+    color: white;
+}
+
+.contacto{
+    color: white;
+}
+
+hr{
+    border: none;
+    background-color: rgb(21, 155, 233);
+    width: 100%;
+    height: 6px;
+}
+
+.encabezado{
+    width: 100%;
+    height: 400px;
+    background-image: url('../imagenes/cabecera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position: right;
+}
+
+.texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto h1{
+    color: white;
+    margin-top: 12%;
+}
+
+.texto p{
+    color: white;
+}
+
+.nav2{
+    background-color: rgb(41, 39, 39);
+}
+
+.nav2 h3{
+    color: white;
+    margin-left: -92px;
+}
+
+.buscador input{
+    height: 25px;
+    width: 68%;
+}
+
+.buscador button{
+    border: none;
+    height: 35px;
+    width: 71px;
+    background-color: rgb(255, 82, 20);
+    color: white;
+    margin-left: -15px;
+}
+
+.seccion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion img{
+    width: 40%;
+}
+
+.html{
+    text-align: center;
+    width: 250px;
+}
+
+.css3{
+    text-align: center;
+}
+
+.diseñografico{
+    text-align: center;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: rgb(0, 140, 255);
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+}
+
+/*------------------------------NOSOTROS----------------------------*/
+
+nav{
+    background-color: rgb(41, 39, 39);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulos{
+    display: flex;
+}
+
+.diseño{
+    margin: 18px;
+    color: white;
+}
+
+.multimedia{
+    color: rgb(21, 155, 233);
+    margin: 18px;
+    
+}
+
+.opcionesnav{
+    display: flex;
+}
+
+.opcionesnav li{
+    list-style: none;
+}
+
+.opcionesnav a{
+    padding: 18px;
+    text-decoration: none;
+}
+
+.inicio2{
+    color: white;
+}
+
+.nosotros2{
+    color: rgb(21, 155, 233);
+}
+
+.servicios2{
+    color: white;
+}
+
+.contacto2{
+    color: white;
+}
+
+.navN{
+    background-color: rgb(41, 39, 39);
+}
+
+.navN h3{
+    color: white;
+    margin-left: -32px;
+}
+
+.buscador2 input{
+    height: 25px;
+    width: 68%;
+}
+
+.buscador2 button{
+    border: none;
+    height: 35px;
+    width: 71px;
+    background-color: rgb(255, 82, 20);
+    color: white;
+    margin-left: -10px;
+}
+
+.containernosotros{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    width: 80%;
+
+}
+.parrafo1C{
+    width: 48%;
+}
+.parrafo2C{
+    margin-top: 10px;
+    color: white;
+    width: 76%;
+}
+.parrafo2C p{
+    background-color: rgb(49, 46, 85);
+    width: 58%;
+    padding: 2%;
+}
+.computec{
+    width: 47.1%;
+    margin-top: 5px;
+}
+.imgnosotros img{
+    width: 45%; 
+}
+.abuelo0{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.abuelo2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.quehacemos2{
+    margin-right: 9%;
+    background-color: rgb(49, 46, 85);
+    width: 481px;
+    height: 190px;
+    padding: 19px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+/*-------------------------------servicios------------------------*/
+.abuelo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.padre{
+    margin-left: 10%;
+}
+.servicios3{
+    color: rgb(21, 155, 233);   
+}
+.nosotros3{
+    color: white;
+}
+.parrafoS{
+    padding: 17px;
+    height: 141px;
+    width: 691px;
+    background-color: rgba(170, 170, 170, 0.835);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.parrafoS2{
+    margin-top: 3px;
+    padding: 17px;
+    height: 141px;
+    width: 691px;
+    background-color: rgba(170, 170, 170, 0.835);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.parrafoS3{
+    margin-top: 3px;
+    padding: 17px;
+    height: 141px;
+    width: 691px;
+    background-color: rgba(170, 170, 170, 0.835);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.quehacemos3{
+    background-color: rgb(49, 46, 85);
+    width: 350px;
+    height: 190px;
+    padding: 19px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.quehacemos2 h3{
+    color: white;
+}
+.quehacemos2 p{
+    color: white;
+}
+/*----------------------------contacto-------------------------*/
+.inicio3{
+    color: white;
+}
+
+.nosotros3{
+    color: white;
+}
+
+.servicios3{
+    color: white;
+}
+
+.contacto3{
+    color: rgb(21, 155, 233);
+}
+.contenedorprincipalcontactos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+}
+.formulario{
+    width: 33.5%;
+}
+.inputs{
+    margin-top: 4px;
+}
+.formulario input{
+    height: 30px;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+.botonenviar{
+    background-color: rgb(255, 82, 20);
+    width: 100%;
+    height: 35px;
+    border: none;
+    color: white;
+}
+.imgsss3{
+    width: 388px;
+    height: 210px;
+    margin-top: 15px;
+}
+.quehacemos4{
+    background-color: rgb(49, 46, 85);
+    width: 350px;
+    height: 190px;
+    padding: 19px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+                             /*RESPONSIVE*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+/*-----------------------INDEX----------------------------------*/
+@media screen and (max-width: 1000px) {
+    body {
+        width: 100%;
+    }
+    nav{
+        font-size: 11px;
+    }
+    .nav2 h3{
+        margin: 0%;
+    }
+    .seccion{
+        font-size: 12px;
+    }
+    .texto p{
+        font-size: 17px;
+    }
+    .seccion{
+        display: flex;
+        flex-direction: column;
+    }
+    .html{
+        margin-left: 13%;
+        width: 74%;
+    }
+    .css3{
+        margin-top: 26px;
+    }
+    .diseñografico{
+        margin-top: 26px;
+    }
+    
+
+
+/*---------------------------------NOSOTROS-------------------------------*/
+    body{
+        width: 100%;
+    }
+    .titulos{
+        font-size: 61%;
+    }
+    .abuelo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .parrafo1C{
+        width: 95%;
+    }
+    .parrafo2C{
+        width: 163%;
+    }
+    .quehacemos2{
+        height: 40%;
+        padding: 26px;
+        width: 77%;
+        margin-left: 9%;
+    }
+
+
+/*--------------------------------SERVICIOS---------------------------------*/
+    body {
+        width: 100%;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 112%;
+    }
+
+    .parrafoS{
+        width: 80%;
+    }
+    .parrafoS2{
+        width: 80%;
+    }
+    .parrafoS3{
+        width: 80%;
+    }
+    .quehacemos2{
+        width: 69.2%;
+        margin-left: 2%;
+        margin-top: 3px;
+    }
+
+/*------------------------------CONTACTO--------------------------------*/
+    .contenedorprincipalcontactos{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulario{
+        width: 67%;
+    }
+    .quehacemos2{
+        margin-left: 16%;
+        width: 61%;
+    }
+    .imgsss3{
+        margin-left: 16%;
+        width: 67.8%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    /*---------------------------NOSOTROS-----------------------------*/
+    .containernosotros{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10%;
+        width: 77%;
+    }
+    .abuelo0{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .quehacemos2{
+        margin-left: 13px;
+        width: 72%;
+    }
+    .quehacemos2 p{
+        width: 100%;
+    }
+    .parrafo2C{
+        width: 100%;
+    }
+    .parrafo2C p{
+        width: 100%;
+    }
+    .computec{
+        width: 104.1%;
+    }
+
+/*----------------------------CONTACTO--------------------------------*/
+
+    .quehacemos4{
+        width: 240px;
+    }
+    .imgsss3{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
